@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120">
+	<title>3DPoints</title>
+	<!--<g id="Rahmen"><path d="M105.5,5a9.29,9.29,0,0,1,9.5,9.5v90c0,5.5-4.53,10.5-9.5,10.5h-90C10.3,115,5,109.7,5,104.5v-90C5,9.26,9.71,5,15.5,5h90m0-5h-90C7.22,0,0,6.22,0,14.5v90c0,8,7.5,15.5,15.5,15.5h90c8,0,14.5-7.5,14.5-15.5v-90A14.33,14.33,0,0,0,105.5,0Z" transform="translate(0)" fill="#4c4a4a"/></g>-->
+	<g id="_3DPunkte" data-name="3DPunkte">
+		<path d="M59.71,82.65" transform="translate(0)" fill="none" stroke="#FFFFFE" stroke-miterlimit="10" stroke-width="3"/>
+		<path d="M59.71,37.57" transform="translate(0)" fill="none" stroke="#FFFFFE" stroke-miterlimit="10" stroke-width="3"/>
+		<line x1="60" y1="20" x2="60" y2="100" fill="none" stroke="#C5C0C3" stroke-miterlimit="10" stroke-width="4"/>
+		<line x1="20" y1="60" x2="100" y2="60" fill="none" stroke="#C5C0C3" stroke-miterlimit="10" stroke-width="4"/>
+		<circle cx="60" cy="60" r="19" fill="none" stroke="#FFFFFE" stroke-miterlimit="10" stroke-width="3"/>
+		<circle cx="60" cy="60" r="12" fill="none" stroke="#FFFFFE" stroke-miterlimit="10" stroke-width="3"/>
+	</g>
+</svg>

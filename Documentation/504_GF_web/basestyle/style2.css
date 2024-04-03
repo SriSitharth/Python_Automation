@@ -1,0 +1,129 @@
+body,td,th {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #333;
+	background-color: #FFFFFF;
+}
+.corner-1 {
+	background-image: url(corner1.jpg);
+	background-repeat: no-repeat;
+	background-position: left top;
+}
+.corner-2 {
+	background-image: url(corner2.jpg);
+	background-repeat: no-repeat;
+	background-position: right top;
+}
+.corner-3 {
+	background-image: url(corner3.jpg);
+	background-repeat: no-repeat;
+	background-position: right top;
+}
+.corner-4 {
+	background-image: url(corner4.jpg);
+	background-repeat: no-repeat;
+	background-position: left top;
+}
+.site-top {
+	background-image: url(container_top.jpg);
+	background-repeat: repeat-x;
+	background-position: left top;
+}
+.site-right {
+	background-image: url(container_right.jpg);
+	background-repeat: repeat-y;
+	background-position: right top;
+}
+.site-bottom {
+	background-image: url(container_bottom.jpg);
+	background-repeat: repeat-x;
+	background-position: left top;
+}
+.site-left {
+	background-image: url(container_left.jpg);
+	background-repeat: repeat-y;
+	background-position: left top;
+}
+.copyright {
+	font-size: 11px;
+	color: #999;
+}
+.copyright a{
+	color: #999;
+	text-decoration: none;	
+}
+.project-text {
+}
+.line {
+	border-top-width: 2px;
+	border-top-style: solid;
+}
+.project-text h1 {
+	text-transform: uppercase;
+	font-size: 18px;
+	font-weight: bold;
+	padding-top: 10px;
+	margin: 0px;
+}
+.comments {
+
+}
+.comments h2 {
+	padding: 0px;
+	border-bottom-width: 2px;
+	border-bottom-style: solid;
+	font-size: 11px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 10px;
+	margin-left: 0px;
+}
+.layoutview {	
+	font-size: 11px;
+	color: #999;
+	text-decoration: none;	
+}
+.layoutview a:link{	
+	font-size: 12px;
+	color: #999;
+}
+.layoutview a:visited{	
+	font-size: 11px;
+	color: #999;	
+}
+.panolist {
+	width: 100%;
+	border: 0px;
+	font-size: 11px;
+	color: #999;
+}
+.panolist a{
+	color: #999;
+	text-decoration: none;	
+}
+.panolist table{
+	color: #999;
+	text-decoration: none;
+	margin: 0px;
+	padding: 0px;
+}
+.panolistimgtd{
+	text-align:center;
+	margin-bottom: 0px;
+}
+.panolistnametd{
+	text-align:center;
+	padding-bottom: 1px;
+}
+.panolistimg {
+	border-style: none;
+}
+.panolistnames{
+	text-align:center;
+	padding-bottom: 5px;
+}
+.hidelineh {
+	background-image: url(lineh.png);
+	background-repeat: repeat-x;
+	background-position: left center;
+}

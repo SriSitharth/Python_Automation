@@ -1,0 +1,8 @@
+#header,
+#comments h2
+.comments h2, {
+	border-bottom-color: #568BB7;
+}
+.line {
+	border-top-color: #568BB7;
+}

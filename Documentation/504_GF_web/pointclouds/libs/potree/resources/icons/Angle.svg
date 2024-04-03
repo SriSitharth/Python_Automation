@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120">
+	<title>Angle</title>
+	<!--<g id="Rahmen"><path d="M105.5,5a9.29,9.29,0,0,1,9.5,9.5v90c0,5.5-4.53,10.5-9.5,10.5h-90C10.3,115,5,109.7,5,104.5v-90C5,9.26,9.71,5,15.5,5h90m0-5h-90C7.22,0,0,6.22,0,14.5v90c0,8,7.5,15.5,15.5,15.5h90c8,0,14.5-7.5,14.5-15.5v-90A14.33,14.33,0,0,0,105.5,0Z" transform="translate(0)" fill="#4c4a4a"/></g>-->
+	<g id="Angle">
+		<line x1="26" y1="28.76" x2="26" y2="98" fill="none" stroke="#FFFFFE" stroke-linecap="round" stroke-miterlimit="10" stroke-width="3"/>
+		<polygon points="18.52 30.95 26 18 33.48 30.95 18.52 30.95" fill="#C5C0C3" stroke="#FFFFFE" stroke-miterlimit="10" stroke-width="3"/>
+		<line x1="95.61" y1="81.61" x2="25.95" y2="99" fill="none" stroke="#FFFFFE" stroke-linecap="round" stroke-miterlimit="10" stroke-width="3"/>
+		<polygon points="91.67 74.88 106.05 79 95.29 89.39 91.67 74.88" fill="#C5C0C3" stroke="#FFFFFE" stroke-miterlimit="10" stroke-width="3"/>
+		<path d="M78.5,84a52.62,52.62,0,0,0-51-40" transform="translate(0)" fill="none" stroke="#FFFFFE" stroke-linecap="round" stroke-miterlimit="10" stroke-width="3" fill-rule="evenodd"/>
+	</g>
+</svg>

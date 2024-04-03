@@ -1,0 +1,62 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=8"/>
+	<title>PointCab-Layout-Panorama</title>	    	
+	<script src="js/Detector.js"></script>
+	<style type="text/css">
+	<!--
+	html{height:100%;}
+	body {
+		background-color: #FFFFFF;
+		padding: 0px;
+		margin: 0px;
+		border: 0px;
+		background-image:url(img/logo_waitpano.png);
+		background-repeat:no-repeat;
+		background-position: center;
+	}
+	-->
+	</style>
+</head>
+
+<body>
+
+<script>	
+	selectPanoImplementation();
+	
+	function selectPanoImplementation()
+	{							
+		// use flash ?
+		var flashVersion = getFlashVersion().split(',').shift();
+		if(flashVersion > 9)
+		{
+			//alert("Flash Supported");
+			window.open ('???PointCab_Flash_Link???','_self',false);
+			return true;
+		};
+		
+		// use webGL ?
+		if(Detector.webgl )
+		{
+			//alert("WebGL Supported");
+			window.open ('???PointCab_WebGL_Link???','_self',false);
+			return true;
+		};
+		
+		// use safari/iPad
+		var sup3dCSS = supports3dCSS();
+		if (sup3dCSS)
+		{
+			//alert("CSS3 Supported");
+			window.open ('???PointCab_Apple_Link???','_self',false);
+			return true;
+		};
+		
+		return false;
+	};
+</script>
+
+</body>
+</html>

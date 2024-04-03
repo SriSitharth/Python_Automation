@@ -1,0 +1,25 @@
+<my_params>
+    <stage>
+        <panorama_controller path="PanoramaCtrl07.swf" posx="0" posy="0"/>
+        <cursor path="./basestyle/flash_cursor.png"/>
+    </stage>
+    <context_menu>
+        <full_screen show_item="yes" on_caption="Enter Full Screen Mode" off_caption="Exit Full Screen Mode"/>
+        <panorama_controller show_item="yes"/>
+        <u_context1 show_item="yes" on_caption="Show Instruction" off_caption="Hide Instruction"/>
+        <u_context2 show_item="yes" on_caption="Show Message" off_caption="Hide Message"/>
+    </context_menu>
+    <user_panel>
+        <u_context1 path="instruction01.gif" posx="0" posy="-10"/>
+        <u_context2 path="./basestyle/message01.jpg" posx="0" posy="0"/>
+    </user_panel>
+    <sphere_context>
+        <normal show_item="yes" on_caption="--> Rectilinear projection" off_caption=" Rectilinear projection"/>
+        <globe show_item="yes" on_caption="--> Orthogonal projection" off_caption=" Orthogonal projection"/>
+        <bipolar show_item="yes" on_caption="--> Stereographic projection" off_caption=" Stereographic projection"/>
+    </sphere_context>
+    <play_objects>
+        <image path="panos/54.png"/>
+        <view init_filter="yes"/>
+    </play_objects>
+</my_params>

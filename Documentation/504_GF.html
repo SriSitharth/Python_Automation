@@ -1,0 +1,164 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>504_GF</title>
+<link href="504_GF_web/basestyle/style2.css" rel="stylesheet" type="text/css" media="all">
+<link href="504_GF_web/basestyle/color.css" rel="stylesheet" type="text/css" media="all">
+<script src="504_GF_web/js/jquery.js"></script>
+<script src="504_GF_web/js/Detector.js"></script>
+</head>
+
+<body>
+<style>
+.videoWrapper {
+	position: relative;
+	/* //padding-bottom: 80.0%;//56.25%; /* 16:9 */
+	/* calc as hoehe / breite * 100 */
+	padding-top: 75%;/*75%;*/
+	/*padding-left: 25px*/
+	height: 0;
+	background-color: black;
+	id
+}
+.videoWrapper iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color: black;
+}
+.videoWrapper .overlay {
+    position: absolute;
+    z-index: 2;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%; 
+    background: black;
+	background-color: black;
+}
+</style>
+<script>
+
+	// if no Flash and no WebGL, move to single page
+		
+	if (!iApple())
+	{
+		
+	}
+	function iApple()
+	{			
+		// use webGL ?
+		if(Detector.webgl )
+		{			
+			return false;
+		};
+		
+		// use flash ?
+		var flashVersion = getFlashVersion().split(',').shift();
+		if(flashVersion > 9)
+		{
+			return false;
+		};
+		
+		// use safari/iPad
+		var sup3dCSS = supports3dCSS();
+		if (sup3dCSS)
+		{
+			//alert("CSS3 Supported");
+			window.open ('504_GF_web/layoutOnly.html','_self',false);
+			return true;
+		};
+		
+		return false;
+	};
+</script>
+
+<table width="100%" height="100%" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td width="38" height="38" class="corner-1">&nbsp;</td>
+    <td class="site-top">&nbsp;</td>
+    <td width="38" height="38" class="corner-2">&nbsp;</td>
+  </tr>
+  <tr>
+    <td class="site-left">&nbsp;</td>
+    <td>
+    <table width="100%" height="100%" border="0" cellspacing="0" cellpadding="0">
+    	<tr>
+        	<td valign="top" class="project-text">
+            	<h1>KAFD-LF-504-MIXU-GF0-00000-TXG-SUR-PCL-01001</h1>
+                Acquisition Team:  | Acquisition date: 17.10. - 17.10.2023
+        </td>
+        	<td align="right">
+            	<a href="http://www.qosteq.com"><img src="504_GF_web/basestyle/logo.png"/></a>
+          </td>
+        </tr>
+    	<tr>
+        	<td colspan="2" class="line">&nbsp;</td>
+        </tr>
+    	<tr>
+		<td height="100%" width="58%" id="layoutFramCell">
+			<iframe src="504_GF_web/layoutFrame.html" id="framelayout" name="framelayout" frameborder="0" width="100%" height="100%" allowfullscreen="true" scrolling="no"></iframe>
+		</td>
+
+			<!---
+			<td height="100%">
+				<iframe src="504_GF_web/layoutFrame.html" id="framelayout" name="framelayout" frameborder="0" width="100%" height="100%" allowfullscreen="true" scrolling="no"></iframe>
+			</td>
+			<td height="100%">
+				<iframe src="504_GF_web/panoWebGL.html" id="framepano" name="framepano" frameborder="0" width="100%" height="100%" allowfullscreen="true" scrolling="no"></iframe>
+            </td>
+			-->
+       
+		<td height="100%" style="background-color: black;">
+			<iframe src="504_GF_web/panoWebGL.html" id="framepano" name="framepano" frameborder="0" width="100%" height="100%" allowfullscreen="true" scrolling="no"></iframe>
+		</td>
+
+		
+		<tr>
+        	<td  width="100%" height="20px" colspan="2" class="hidelineh"><img src="504_GF_web/basestyle/lineh.png"/><img src="504_GF_web/basestyle/toogleh.png" id="hidepanolistbutton"/>
+			<script>
+				$("#hidepanolistbutton").click(function() {
+					$("#hidepanolist").fadeToggle("fast", "linear");
+				});
+				
+				$("#framepano").location.reload();
+			</script>
+			</td>
+			
+		</tr>
+		<tr>
+        	<td colspan="2" height="130px" id="hidepanolist">
+				<iframe src="504_GF_web/hpanolist.html" id="framepanolist" name="framepanolist" frameborder="0" width="100%" height="100%" scrolling="auto"></iframe>
+			</td>
+		</tr>
+    	<tr>
+        	<td colspan="2">&nbsp;</td>
+        </tr>
+    	<tr>
+        	<td colspan="2" class="comments">
+            	<h2>Comments:</h2>
+               	
+          </td>
+        </tr>
+    </table>
+    </td>
+    <td class="site-right">&nbsp;</td>
+  </tr>
+  <tr>
+    <td width="38" height="38" class="corner-4"><span class="corner-4"></span></td>
+    <td align="center" class="site-bottom copyright"><p>&nbsp;</p>
+    <p><br>
+    Created by Qosteq | Web: <a href="http://www.qosteq.com" target="_blank">www.qosteq.com</a> | E-Mail: <a href="mailto:project@qosteq.com">project@qosteq.com
+	</td>
+    <td width="38" height="38" class="corner-3">&nbsp;</td>
+  </tr>
+</table>
+<script>
+var firstLoad = "./504_GF_web/pano_108.html";
+var panoWin = window.open(firstLoad, "framepano");
+	panoWin.focus();
+</script>
+</body>
+</html>

@@ -1,0 +1,113 @@
+html,
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: normal;
+	color: #333;
+	height: 100%;
+	background-color: #FFFFFF;
+}
+#main-content {
+	background-color: #FF9;
+}
+#main-1 {
+	margin: auto;
+	width: 90%;
+	min-width: 900px;
+	background-image: url(container_top.jpg);
+	background-repeat: repeat-x;
+	background-position: left top;
+}
+
+#main-2 {
+	background-image: url(container_right.jpg);
+	background-repeat: repeat-y;
+	background-position: right top;
+}
+#main-3 {
+	background-image: url(container_bottom.jpg);
+	background-repeat: repeat-x;
+	background-position: left bottom;
+}
+#main-4 {
+	background-image: url(container_left.jpg);
+	background-repeat: repeat-y;
+	background-position: left top;
+}
+#main-corner-1 {
+	background-image: url(corner1.jpg);
+	background-repeat: no-repeat;
+	background-position: left top;
+}
+#main-corner-2 {
+	background-image: url(corner2.jpg);
+	background-repeat: no-repeat;
+	background-position: right top;
+}
+#main-corner-3 {
+	background-image: url(corner3.jpg);
+	background-repeat: no-repeat;
+	background-position: right bottom;
+}
+#main-corner-4 {
+	background-image: url(corner4.jpg);
+	background-repeat: no-repeat;
+	background-position: left bottom;
+	padding: 35px;
+}
+#copyright {
+	margin: auto;
+	width: 90%;
+	min-width: 900px;
+	text-align: center;
+	font-size: 11px;
+	color: #999;
+}
+#copyright a{
+	color: #999;
+	text-decoration: none;	
+}
+
+#header {
+	border-bottom-width: 2px;
+	border-bottom-style: solid;
+}
+
+#logo {
+	overflow: hidden;
+	text-align: right;
+	float: right;
+	margin: 5px;
+}
+#project-text {
+	margin-right: 320px;
+	height: 90px;
+	margin-left: 5px;
+}
+#project-text h1 {
+	text-transform: uppercase;
+	font-size: 18px;
+	font-weight: bold;
+	padding-top: 10px;
+	margin: 0px;
+}
+#panorama {
+	padding: 15px;
+}
+#frame {
+	width: 100%;
+	overflow: hidden;
+}
+#comments {
+
+}
+#comments h2 {
+	padding: 0px;
+	border-bottom-width: 2px;
+	border-bottom-style: solid;
+	font-size: 11px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 10px;
+	margin-left: 0px;
+}

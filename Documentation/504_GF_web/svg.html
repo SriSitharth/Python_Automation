@@ -1,0 +1,67 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=8"/>
+	<title>PointCab-Layout-SVG</title>	
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">		
+	<script src="dist/svg-pan-zoom.js"></script>
+</head>
+
+<body>
+<object id="svgImage" type="image/svg+xml" data="customData/???PointCab_Svg???" style="width: 0px; height: 0px;">
+	Your browser does not support SVG
+</object>
+
+<script>
+      window.onload = loadSVG;
+	  function loadSVG() {
+	  resizingSVG();
+        svgPanZoom('#svgImage', {
+          zoomEnabled: true,
+          controlIconsEnabled: true
+        });
+      };
+</script>
+
+<script>
+var tab;
+var svgObject;
+var width;
+var height;
+var svgWidth;
+var svgHeight;
+
+function resizingSVG()//Resize the iFrame to table cell size
+{
+	tab = parent.document.getElementById("layoutFramCell");
+	width=parseInt(tab.offsetWidth);
+	height=parseInt(tab.offsetHeight);
+
+	svgObject=document.getElementById("svgImage");
+	svgWidth=svgObject.style.width;
+	svgHeight=svgObject.style.height;
+
+	width=width-10;
+	height=height-10;
+
+	svgObject.style.width=width + "px";
+	svgObject.style.height=height + "px";
+	
+	// Reload svg object to fit size
+	var panZoomTiger = svgPanZoom('#svgImage');
+
+	panZoomTiger.destroy();
+	delete panZoomTiger;
+	svgPanZoom('#svgImage', {
+          zoomEnabled: true,
+          controlIconsEnabled: true
+        });
+};
+
+window.onresize = resizingSVG;
+
+</script>
+
+</body>
+</html>

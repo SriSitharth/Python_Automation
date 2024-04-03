@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120">
+	<title>Distance</title>
+	<!--<g id="Rahmen"><path d="M105.5,5a9.29,9.29,0,0,1,9.5,9.5v90c0,5.5-4.53,10.5-9.5,10.5h-90C10.3,115,5,109.7,5,104.5v-90C5,9.26,9.71,5,15.5,5h90m0-5h-90C7.22,0,0,6.22,0,14.5v90c0,8,7.5,15.5,15.5,15.5h90c8,0,14.5-7.5,14.5-15.5v-90A14.33,14.33,0,0,0,105.5,0Z" transform="translate(0)" fill="#4c4a4a"/></g>-->
+	<g id="Distance">		
+		<line x1="82" y1="29" x2="100" y2="29" fill="none" stroke="#FFFFFE" stroke-miterlimit="10" stroke-width="3"/>
+		<line x1="91" y1="20" x2="91" y2="38" fill="none" stroke="#FFFFFE" stroke-miterlimit="10" stroke-width="3"/>
+		<line x1="20" y1="91" x2="38" y2="91" fill="none" stroke="#FFFFFE" stroke-miterlimit="10" stroke-width="3"/>
+		<line x1="29" y1="82" x2="29" y2="100" fill="none" stroke="#FFFFFE" stroke-miterlimit="10" stroke-width="3"/>
+		<rect x="35.82" y="78.73" width="4.46" height="4.46" rx="1" ry="1" fill="#C5C0C3" stroke="#FFFFFE" stroke-miterlimit="10" stroke-width="0.25"/>
+		<rect x="43.14" y="72.04" width="4.46" height="4.46" rx="1" ry="1" fill="#C5C0C3" stroke="#FFFFFE" stroke-miterlimit="10" stroke-width="0.25"/>
+		<rect x="50.11" y="65.2" width="4.46" height="4.46" rx="1" ry="1" fill="#C5C0C3" stroke="#FFFFFE" stroke-miterlimit="10" stroke-width="0.25"/>
+		<rect x="57.19" y="58.25" width="4.46" height="4.46" rx="1" ry="1" fill="#C5C0C3" stroke="#FFFFFE" stroke-miterlimit="10" stroke-width="0.25"/>
+		<rect x="64.62" y="50.96" width="4.46" height="4.46" rx="1" ry="1" fill="#C5C0C3" stroke="#FFFFFE" stroke-miterlimit="10" stroke-width="0.25"/>
+		<rect x="72.09" y="43.64" width="4.46" height="4.46" rx="1" ry="1" fill="#C5C0C3" stroke="#FFFFFE" stroke-miterlimit="10" stroke-width="0.25"/>
+		<rect x="79.72" y="36.15" width="4.46" height="4.46" rx="1" ry="1" fill="#C5C0C3" stroke="#FFFFFE" stroke-miterlimit="10" stroke-width="0.25"/>
+	</g>
+</svg>
